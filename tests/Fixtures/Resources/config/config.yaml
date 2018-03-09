@@ -1,0 +1,13 @@
+parameters:
+    locale: en
+    kernel.secret: oiwejfoiewj
+    array1: "%env(array:ARRAY1)%"
+    array2: "%env(array:ARRAY2)%"
+    array3: "%env(array:ARRAY3)%"
+
+framework:
+    test: ~
+
+c0ntax_env_providers:
+    array:
+        return_null_if_empty: true

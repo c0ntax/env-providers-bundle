@@ -1,0 +1,7 @@
+services:
+    c0ntax_env_providers.array:
+        class: C0ntax\EnvProvidersBundle\ArrayEnvVarProcessor
+        arguments:
+            - '%c0ntax_env_providers.array%'
+        tags:
+            - { name: container.env_var_processor }

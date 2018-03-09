@@ -1,0 +1,37 @@
+{
+    "name": "c0ntax/env-providers-bundle",
+    "description": "A collection of extensions to allow you to use symfony .env files easier",
+    "type": "symfony-bundle",
+    "license": "Apache 2.0",
+    "authors": [
+        {
+            "name": "Dan Burzynski",
+            "email": "contax@phrenetic.org"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "C0ntax\\EnvProvidersBundle\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "C0ntax\\EnvProvidersBundle\\Tests\\": "tests"
+        }
+    },
+    "require": {
+        "php": ">=7.1",
+        "symfony/dependency-injection": "^3.4|^4.0",
+        "symfony/http-kernel": "^3.4|4.0",
+        "symfony/config": "^3.4|4.0",
+        "symfony/yaml": "^3.4|^4.0",
+        "symfony/dotenv": "^3.4|^4.0"
+    },
+    "require-dev": {
+        "pds/skeleton": "^1.0",
+        "phpunit/phpunit": "^7.0",
+        "symfony/framework-bundle": "^3.4|^4.0",
+        "symfony/phpunit-bridge": "^3.4|^4.0"
+    }
+}
