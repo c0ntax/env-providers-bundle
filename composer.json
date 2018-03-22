@@ -1,6 +1,6 @@
 {
     "name": "c0ntax/env-providers-bundle",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "description": "A collection of extensions to allow you to use symfony .env files easier",
     "type": "symfony-bundle",
     "license": "Apache-2.0",
@@ -32,8 +32,8 @@
     "require": {
         "php": ">=7.1",
         "symfony/dependency-injection": "^3.4|^4.0",
-        "symfony/http-kernel": "^3.4|4.0",
-        "symfony/config": "^3.4|4.0",
+        "symfony/http-kernel": "^3.4|^4.0",
+        "symfony/config": "^3.4|^4.0",
         "symfony/yaml": "^3.4|^4.0",
         "symfony/dotenv": "^3.4|^4.0"
     },
