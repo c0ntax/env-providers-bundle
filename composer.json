@@ -1,6 +1,6 @@
 {
     "name": "c0ntax/env-providers-bundle",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "description": "A collection of extensions to allow you to use symfony .env files easier",
     "type": "symfony-bundle",
     "license": "Apache-2.0",
